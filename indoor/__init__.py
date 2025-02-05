@@ -13,7 +13,7 @@ def testhello():
 
 @check50.check(exists)
 def testcs201():
-    """input of THIS IS cs201 yields output of this is cs201"""
+    """input of THIS IS CS201 yields output of this is cs201"""
     check50.run("python3 indoor.py").stdin("THIS IS CS201", prompt=False).stdout("this is cs201").exit()
 
 @check50.check(exists)
